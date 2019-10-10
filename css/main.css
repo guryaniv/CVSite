@@ -16,6 +16,9 @@
 
 
 /** Preloader **/
+object {
+    height: 66rem;
+}
 
 .loader {
     background: #eaeaea;
