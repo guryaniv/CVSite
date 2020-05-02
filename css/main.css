@@ -1534,6 +1534,9 @@ ul.hb-list li h6 {
 
 @media screen and (max-width: 1366px) {
     .block-nav-work li a{padding:30px 56px;}
+    .undertitle{
+        font-size: 1em;
+    }
 }
 
 
