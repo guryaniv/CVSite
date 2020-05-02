@@ -1534,8 +1534,8 @@ ul.hb-list li h6 {
 
 @media screen and (max-width: 1366px) {
     .block-nav-work li a{padding:30px 56px;}
-    .undertitle{
-        font-size: 0.8em important!;
+    .main-title h3{
+        font-size: 14 important!;
     }
     .pdf{
         height: 100vh;
