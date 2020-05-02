@@ -1535,10 +1535,10 @@ ul.hb-list li h6 {
 @media screen and (max-width: 1366px) {
     .block-nav-work li a{padding:30px 56px;}
     .undertitle{
-        font-size: 0.8em;
+        font-size: 0.8em important!;
     }
     .pdf{
-        height:fit-content;
+        height: 100vh;
     }
 }
 
