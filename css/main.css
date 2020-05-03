@@ -1532,7 +1532,7 @@ ul.hb-list li h6 {
         font-size: 14 important!;
     }
     .pdf{
-        height: 135vw;
+        height: calc((1vw-30px)*141);
     }
 }
 
