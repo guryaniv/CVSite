@@ -270,6 +270,11 @@ a:hover .right-arr {
     -webkit-transform:translate3d(6px, 0px, 0px);
 }
 
+a .contactlink {
+    position: static;
+    color:red important!;
+}
+
 
 
 /* #Browser Fix

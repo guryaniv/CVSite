@@ -182,13 +182,13 @@
                                             <div class="listing-inner">
                                                 <div class="listing-event">
                                                     <ul class="data left">
-                                                        <li><span class="emph-1">Address:</span> Mazor, Israel</li>
-                                                        <li><span class="emph-1">Email:</span> guryaniv@gmail.com</li>
-                                                        <li><span class="emph-1">Phone:</span> +972-545602991 </li>
+                                                        <li><span class="emph-1">Address:</span> <a href="https://maps.google.com/?q=mazor" rel="noopener noreferrer" target="_blank">Mazor, Israel</a></li>
+                                                        <li><span class="emph-1">Email:</span> <a href="mailto:guryaniv@gmail.com" rel="noopener noreferrer">guryaniv@gmail.com</a></li>
+                                                        <li><span class="emph-1">Phone:</span> <a href="tel:+972545602991" rel="noopener noreferrer">+972-545602991</a> </li>
                                                     </ul>
                                                     <ul class="data right">
-                                                        <li><span class="emph-1">Github:</span> @guryaniv</li>
-                                                        <li><span class="emph-1">Instagram:</span> @guryaniv</li>
+                                                        <li><span class="emph-1">Github:</span> <a href="https://github.com/guryaniv" rel="noopener noreferrer" target="_blank">@guryaniv</a></li>
+                                                        <li><span class="emph-1">Instagram:</span> <a href="https://www.instagram.com/guryaniv/" rel="noopener noreferrer" target="_blank">@guryaniv</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -226,7 +226,7 @@
                         <div class="content">
 
                             <!--Block content-->
-                            <div class="block-content mb-100">
+                            <div class="block-content mb-50">
 
 
                                 <!--Row-->
@@ -282,7 +282,7 @@
                         <div class="content">
 
                             <!--Block content-->
-                            <div class="block-content mb-100">
+                            <div class="block-content mb-80">
 
                                 <!--Row-->
                                 <div class="row">
@@ -430,13 +430,14 @@
 
 // Instagram feed setup
 
+        var isStandardWindow = window.matchMedia("(min-width: 640px)").matches;
         var instaFeed = new Instafeed({
             get: 'user',
             userId: '37310232',
             clientId: '643014aac1644002b7311bfe47432fb9',
             accessToken: '37310232.643014a.4b5eefdab9f542619b6368012e95e3d1',
             resolution :'thumbnail',
-            limit: 18,
+            limit: isStandardWindow ? 18 : 13,
             template: '<li><a href="{{link}}"><img src="{{image}}"/></a></li>'
         });
         instaFeed.run();

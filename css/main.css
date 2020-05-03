@@ -440,10 +440,7 @@ img.signature{
 
 
 .listing  a {
-    font-size: 14px;
-    font-weight: 700;
-    position: absolute;
-    bottom: -25px;
+    color: #999999;
 }
 
 
@@ -1538,7 +1535,7 @@ ul.hb-list li h6 {
         font-size: 14 important!;
     }
     .pdf{
-        height: 100vh;
+        height: 50vh;
     }
 }
 
@@ -1719,7 +1716,7 @@ ul.hb-list li h6 {
     .main-nav.not-tabbed ul li{ width:50%;}
     .main-title h1 {font-size: 45px;}
     .main-title.profile h1 {line-height:50px;}
-    .main-title h3{font-size: 17px;position:relative; top:-18px;}
+    .main-title h3{font-size: 12px;position:relative; top:-18px;}
     p.lead-intro{padding:0 3px;}
     img.signature {width: 45%;}
     .block-content.pb-30{padding-bottom:0 !important;}
