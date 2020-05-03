@@ -1186,9 +1186,6 @@ ul.hb-list li h6 {
     font-size: 12px;
 }
 
-.block-pagination ul li.next a {
-}
-
 
 .block-pagination ul li a {
     color: #cccccc;
@@ -1535,13 +1532,13 @@ ul.hb-list li h6 {
         font-size: 14 important!;
     }
     .pdf{
-        height: 141vw;
+        height: 135vw;
     }
 }
 
 
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation: portrait) {
-    input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
+    input, textarea{-webkit-appearance: none; -webkit-border-radius:0; border-radius:0;}
     .right-content.col-md-9{width:75%;}
     .col-md-2.left-content{width: 16.6667%;}
     p.lead-intro{padding:0 45px;}
@@ -1569,12 +1566,12 @@ ul.hb-list li h6 {
 
 
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation: landscape) {
-    input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
+    input, textarea{-webkit-appearance: none; -webkit-border-radius:0; border-radius:0;}
 }
 
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
+    input, textarea{-webkit-appearance: none;-webkit-border-radius:0; border-radius:0;}
     .right-content.col-md-9{width:75%;}
     .col-md-2.left-content{width: 16.6667%;}
     p.lead-intro{padding:0 45px;}
@@ -1602,7 +1599,7 @@ ul.hb-list li h6 {
 
 
 @media only screen and (min-width: 768px) and (max-width: 959px){
-    input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
+    input, textarea{-webkit-appearance: none;-webkit-border-radius:0; border-radius:0;}
     .container {position: relative;}
     .main-header{margin:0;}
     .main-header:after{bottom: 0;height: 1px;right: auto;width: 100%;top:auto;}
@@ -1641,7 +1638,7 @@ ul.hb-list li h6 {
 
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
+    input, textarea{-webkit-appearance: none;-webkit-border-radius:0; border-radius:0;}
     .container {position: relative;}
     .content{padding: 100px 40px;}
     .main-header{margin:0;}
@@ -1701,7 +1698,7 @@ ul.hb-list li h6 {
 
 
 @media only screen and (max-width:479px) {
-    input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
+    input, textarea{-webkit-appearance: none;-webkit-border-radius:0; border-radius:0;}
     .container {position: relative;}
     .content{padding: 100px 40px;}
     .main-header{margin:0;}
@@ -1716,7 +1713,7 @@ ul.hb-list li h6 {
     .main-nav.not-tabbed ul li{ width:50%;}
     .main-title h1 {font-size: 45px;}
     .main-title.profile h1 {line-height:50px;}
-    .main-title h3{font-size: 12px;position:relative; top:-18px;}
+    .main-title h3{font-size: 14px;position:relative; top:-18px;}
     p.lead-intro{padding:0 3px;}
     img.signature {width: 45%;}
     .block-content.pb-30{padding-bottom:0 !important;}
@@ -1764,8 +1761,9 @@ ul.hb-list li h6 {
 
 }
 
-
-
+@media only screen and (max-width:360px) {
+    .main-title h3{font-size: 12px;position:relative; top:-18px;}
+}
 
 
 

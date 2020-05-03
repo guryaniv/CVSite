@@ -12,6 +12,7 @@
 ================================================== */
 
 *, *:before, *:after {
+    box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing :border-box;
     -ms-box-sizing: border-box;
@@ -76,7 +77,11 @@ a:focus {
     outline: 0;
 }
 
-iframe{width:100%;frameborder:0;display:inline-block;}
+iframe{
+    width:100%;
+    border: none;
+    display:inline-block;
+}
 
 
 
@@ -269,13 +274,6 @@ a:hover .right-arr {
     -ms-transform: translate3d(6px, 0px, 0px);
     -webkit-transform:translate3d(6px, 0px, 0px);
 }
-
-a .contactlink {
-    position: static;
-    color:red important!;
-}
-
-
 
 /* #Browser Fix
 ================================================== */
