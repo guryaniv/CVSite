@@ -14,7 +14,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/guryaniv/CVSite/master/img/GYfavico.ico">
     <meta property="og:description" content="Full CV and contact details"/>
     <meta property="og:site_name" content="GurYaniv.com"/>
-<!--    <meta property="og:url" content="http://GurYaniv.com" />-->
 
     <!-- Css -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
@@ -147,7 +146,7 @@
 
 
                                 <p class="lead-intro">B. Sc. Electrical Engineering and Computer Science from Tel-Aviv University.<br>
-                                Interested in Data science and web development. Also, a hobby photographer.
+                                I'm into collecting, analyzing and utilizing data.
                                 </p>
 
 
@@ -180,7 +179,7 @@
                                             <div class="listing-inner">
                                                 <div class="listing-event">
                                                     <ul class="data left">
-                                                        <li><span class="emph-1">Address:</span> <a href="https://maps.google.com/?q=mazor" rel="noopener noreferrer" target="_blank">Mazor, Israel</a></li>
+                                                        <li><span class="emph-1">Address:</span> <a href="https://maps.google.com/?q=ramatgan" rel="noopener noreferrer" target="_blank">Ramat Gan, Israel</a></li>
                                                         <li><span class="emph-1">Email:</span> <a href="mailto:guryaniv@gmail.com" rel="noopener noreferrer">guryaniv@gmail.com</a></li>
                                                         <li><span class="emph-1">Phone:</span> <a href="tel:+972545602991" rel="noopener noreferrer">+972-545602991</a> </li>
                                                     </ul>
@@ -430,13 +429,9 @@
 
         var isStandardWindow = window.matchMedia("(min-width: 640px)").matches;
         var instaFeed = new Instafeed({
-            get: 'user',
-            userId: '37310232',
-            clientId: '643014aac1644002b7311bfe47432fb9',
-            accessToken: '37310232.643014a.4b5eefdab9f542619b6368012e95e3d1',
-            resolution :'thumbnail',
+            accessToken: 'IGQVJVdEs4UlVSMzdiSzMtampUZAi1pR3NfWU5Td2RoX1hPSzZAXeURMdDJNUnhMTTV3R2M2eFg2OG4yM090MWtrZAHR0R1BwcEVJdUI1Y1lpejBjUW5XRGlhNGhKRzU4YkpzVDlUOHFNTExUd3hqeExzQQZDZD',
             limit: isStandardWindow ? 18 : 13,
-            template: '<li><a href="{{link}}"><img src="{{image}}"/></a></li>'
+            template: '<li><a href="{{link}}"><img style="width: 100px; height: 100px" src="{{image}}"/></a></li>'
         });
         instaFeed.run();
 
