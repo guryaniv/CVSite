@@ -145,7 +145,7 @@
                                 <!--End row-->
 
 
-                                <p class="lead-intro">B. Sc. Electrical Engineering and Computer Science from Tel-Aviv University.<br>
+                                <p class="lead-intro">B.Sc. and MBA from Tel-Aviv University.<br>
                                 I'm into collecting, analyzing and utilizing data.
                                 </p>
 
@@ -185,7 +185,7 @@
                                                     </ul>
                                                     <ul class="data right">
                                                         <li><span class="emph-1">Github:</span> <a href="https://github.com/guryaniv" rel="noopener noreferrer" target="_blank">@guryaniv</a></li>
-                                                        <li><span class="emph-1">Instagram:</span> <a href="https://www.instagram.com/guryaniv/" rel="noopener noreferrer" target="_blank">@guryaniv</a></li>
+                                                        <li><span class="emph-1">Instagram:</span> <a href="https://www.instagram.com/guryaniv/profilecard/?igsh=MTF6eWcyNm1iaGZ4NA==" rel="noopener noreferrer" target="_blank">@guryaniv</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -320,7 +320,11 @@
                                                     <!--Row-->
                                                     <div class="row">
                                                         <div class="col-md-12">
-                                                            <ul class="insta-Feed" id="instafeed"></ul>
+                                                            <!--todo: add images instead of instagram broken API-->
+                                                            <p>I got tired of Instagram's API changes and I don't maintain this site often,<br>
+                                                            so just go to <a href="https://www.instagram.com/guryaniv?igsh=NGFzMmY0eGFrZHc1">my Instagram profile</a> if you're interested.
+                                                            </p>
+
                                                         </div>
 
                                                     </div>
@@ -368,7 +372,7 @@
                     <ul class="social">
                         <li><a href="https://github.com/guryaniv"><i class="icon-github"></i></a></li>
                         <li><a href="https://www.linkedin.com/in/gur-yaniv-41a641135/"><i class="icon-linkedin"></i></a></li>
-                        <li><a href="https://www.instagram.com/guryaniv/"><i class="icon-instagram"></i></a></li>
+                        <li><a href="https://www.instagram.com/guryaniv/profilecard/?igsh=MTF6eWcyNm1iaGZ4NA=="><i class="icon-instagram"></i></a></li>
                     </ul>
                     <!--End social-->
 
@@ -424,16 +428,6 @@
             transitionOutEasing: 'linear'
 
         });
-
-// Instagram feed setup
-
-        var isStandardWindow = window.matchMedia("(min-width: 640px)").matches;
-        var instaFeed = new Instafeed({
-            accessToken: 'IGQVJVbWFrOE9IUDJfcVU4VmVseENaemkxR3JkbC0wLUtZAYmg0T0xMbHZAmZAzFCTl80OXhyZA0lELUx2X25SeDhWam91ZAnNRbUtibFNnS3FoXzFPeDdIaVQ2WjYyeG1ocHR2MnZAaNkxqZAS1Pa2JCMV92QgZDZD',
-            limit: isStandardWindow ? 18 : 13,
-            template: '<li><a href="{{link}}"><img style="width: 100px; height: 100px" src="{{image}}"/></a></li>'
-        });
-        instaFeed.run();
 
 
     })(jQuery);
